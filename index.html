@@ -1,29 +1,33 @@
 <!doctype html>
 <html lang="th">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#ea580c" />
-    <meta name="color-scheme" content="light" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link rel="apple-touch-icon" href="./icon-192.png" />
-    <title>Augmented Reality: AR</title>
-    <meta name="description" content="Install Augmented Reality: AR on Android, iPhone, and iPad." />
-    <meta property="og:title" content="Augmented Reality: AR" />
-    <meta property="og:description" content="Install Augmented Reality: AR on Android, iPhone, and iPad." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./index-CH-VDiZv.js"></script>
-    <link rel="stylesheet" crossorigin href="./index-CRyVkOmF.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ea580c">
+  <title>Augmented Reality: AR</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Arial,Tahoma,sans-serif;color:#292524;background:linear-gradient(145deg,#fff1bd,#fffaf0 50%,#fff)}main{width:min(100%,720px);min-height:100vh;margin:auto;padding:28px 20px;display:flex;flex-direction:column}header{display:flex;align-items:center;gap:12px;color:#9a3412;font-weight:800}header img{width:50px;height:50px;padding:4px;object-fit:contain;border-radius:15px;background:#fff;border:1px solid #fed7aa}small{display:block;margin-top:3px;color:#78716c;font-weight:400}section{margin:auto 0;text-align:center}.crest{width:132px;height:132px;margin:38px auto 18px;padding:12px;object-fit:contain;background:#fff;border:4px solid #fff;border-radius:34px;box-shadow:0 18px 45px #ea580c25}.tag{display:inline-block;padding:8px 14px;border-radius:99px;background:#fef3c7;color:#9a3412;font-size:.83rem;font-weight:800}h1{margin:18px 0 10px;font-size:clamp(2.4rem,10vw,4.4rem);line-height:.98;letter-spacing:-.07em}h1 span{display:block;color:#ea580c}p{max-width:520px;margin:16px auto;color:#57534e;font-size:1.04rem;line-height:1.65}.buttons{display:grid;gap:14px;max-width:620px;margin:34px auto 14px}a,button{width:100%;min-height:126px;border-radius:24px;padding:20px;text-align:left;font:inherit;text-decoration:none;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease}a:hover,button:hover{transform:translateY(-3px)}.android{color:#fff;background:#ea580c;border:0;box-shadow:0 15px 30px #ea580c4d}.ios{color:#292524;background:#fff;border:1px solid #fed7aa;box-shadow:0 5px 18px #78350f12}.platform{display:block;opacity:.82;font-size:.75rem;font-weight:800;letter-spacing:.08em}strong{display:block;margin-top:14px;font-size:1.25rem}.detail{display:block;margin-top:5px;font-size:.9rem;opacity:.82}#notice{min-height:52px;margin:18px auto;padding:14px 16px;border:1px solid #fde68a;border-radius:16px;background:#fffbeb;color:#78350f;font-size:.9rem}footer{padding-top:18px;border-top:1px solid #fde68a;color:#78716c;font-size:.78rem;text-align:center}@media(min-width:620px){.buttons{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <header><img src="./npu-emblem.png" alt="ตรามหาวิทยาลัยนครพนม"><div>มหาวิทยาลัยนครพนม<small>Nakhon Phanom University</small></div></header>
+    <section>
+      <img class="crest" src="./npu-emblem.png" alt="ตรามหาวิทยาลัยนครพนม">
+      <div class="tag">แอป AR 3D พร้อมดาวน์โหลด</div>
+      <h1>Augmented Reality:<span>AR</span></h1>
+      <p>ดาวน์โหลดแอป 3D ของมหาวิทยาลัยนครพนม เพื่อติดตั้งและใช้งานบนมือถือ Android</p>
+      <div class="buttons">
+        <a class="android" href="https://github.com/songprak078-cell/augmented-reality-ar/releases/download/v1.0.0/Augmented-Reality-AR.apk" download="Augmented-Reality-AR.apk" onclick="document.getElementById('notice').textContent='กำลังดาวน์โหลดไฟล์ APK ของแอป AR 3D — หลังดาวน์โหลดเสร็จให้เปิดไฟล์เพื่อติดตั้ง'">
+          <span class="platform">ANDROID · APK · 4.6 MB</span><strong>ดาวน์โหลดแอป Android</strong><span class="detail">กดเพื่อโหลดแอป AR 3D ตัวจริง</span>
+        </a>
+        <button class="ios" type="button" onclick="document.getElementById('notice').textContent='iPhone/iPad ต้องใช้ไฟล์ที่ลงนามด้วยบัญชี Apple Developer และแจกผ่าน TestFlight หรือ App Store จึงยังไม่มีไฟล์ติดตั้งตรง'">
+          <span class="platform">iPHONE / iPAD</span><strong>iOS ยังไม่พร้อม</strong><span class="detail">ต้องลงนามโดย Apple ก่อนแจกจ่าย</span>
+        </button>
+      </div>
+      <div id="notice">เลือก Android เพื่อดาวน์โหลดไฟล์ APK ของแอป AR 3D</div>
+    </section>
+    <footer>Augmented Reality: AR · มหาวิทยาลัยนครพนม</footer>
+  </main>
+</body>
 </html>
-
